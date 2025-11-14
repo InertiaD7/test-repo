@@ -1,0 +1,290 @@
+body {
+    background-color: #C1E0F6;
+    /* rgb(2, 134, 131) */
+}
+
+a {
+    text-decoration: none;
+    color: antiquewhite;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar {
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 9%;
+    width: 100%;
+    z-index: 100;
+    background-color: rgba(3, 36, 62, 0.995);
+    box-shadow: 0px 2px 20px darkgoldenrod;
+}
+
+.navbar .logo {
+    font-size: 30px;
+    font-weight: 900;
+    font-family: cursive;
+    color: darkgoldenrod;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    margin-left: 35px;
+    transition: 1s ease;
+}
+
+.navbar ul li:hover {
+    transform: translateY(-3px);
+}
+
+.navbar ul li a {
+    font-size: 20px;
+    font-weight: 600;
+    font-family: cursive;
+    transition: 1s ease;
+}
+
+.navbar ul li a:hover {
+    color: darkgoldenrod;
+    font-size: 21px;
+}
+
+.home {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 30vh 9%;
+}
+
+.home .home-info {
+    position: relative;
+}
+
+.home .home-info h1 {
+    font-size: 40px;
+    font-weight: 900;
+    color: black;
+    font-family: cursive;
+}
+
+.home .home-info h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: darkgoldenrod;
+    font-family: cursive;
+}
+
+.home .home-info p {
+    font-weight: light;
+    color: black;
+    font-family: cursive;
+}
+
+.home .home-info .btn-sci {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: darkgoldenrod;
+    border: 2px solid darkgoldenrod;
+    border-radius: 40px;
+    box-shadow: 0 0 10px darkgoldenrod;
+    font-size: 16px;
+    color: black;
+    font-weight: 700;
+    transition: .7s;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: darkgoldenrod;
+    border: 2px solid darkgoldenrod;
+}
+
+.home-info .btn-sci .sci {
+    margin-left: 20px;
+}
+
+.home-info .btn-sci .sci a {
+    display: inline-flex;
+    padding: 8px;
+    border: 2px solid darkgoldenrod;
+    border-radius: 50%;
+    font-size: 20px;
+    color: darkgoldenrod;
+    /* margin: 0 8px; */
+    transition: 1s;
+}
+
+.home-info .btn-sci .sci a:hover {
+    color: rgb(1, 39, 39);
+    background-color: darkgoldenrod;
+    box-shadow: 0 0 10px darkgoldenrod;
+    transform: translateY(-3px);
+}
+
+.home-img img {
+    position: relative;
+    border-radius: 8px;
+    transition: 1s ease;
+    animation-delay: 2s;
+    width: 450px;
+    height: 253px;
+}
+
+.home-img img:hover {
+    filter: brightness(2);
+    width: 460px;
+    height: 260px;
+    transform: translateY(-10px);
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    margin: 30vh 9%;
+    background-color: rgba(3, 36, 62, 0.995);
+    border-radius: 6px;
+}
+
+.about-info {
+    padding: 5%;
+}
+
+.about .about-info h2 {
+    color: white;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+.about .about-info p {
+    color: white;
+    font-family: cursive;
+}
+
+.service {
+    /* display: flex; */
+    /* align-items: center; */
+    margin: 30vh 9%;
+    background-color: rgba(3, 36, 62, 0.995);
+    border-radius: 6px;
+}
+
+.service .service-info {
+    padding: 4%;
+}
+
+.service .service-info .my-projects h2 {
+    color: white;
+    font-weight: 900;
+    font-family: cursive;
+    padding-bottom: 4px;
+}
+
+#hr-myPr {
+    color: rgba(3, 36, 62, 0.995);
+}
+
+.service .service-info .card {
+    padding: 2%;
+    background-color: #C1E0F6;
+    margin-left: 2%;
+    font-family: cursive;
+    color: black;
+}
+
+.service .service-info .skill-set {
+    background-color: black;
+    font-family: cursive;
+    color: white;
+    margin-top: 3%;
+    border-radius: 6px;
+}
+
+.contact {
+    margin: 30vh 9%;
+    background-color: rgba(3, 36, 62, 0.995);
+    border-radius: 6px;
+}
+
+.contact .contact-info {
+    padding: 2%;
+}
+
+.contact .contact-info h2 {
+    color: white;
+    font-weight: 900;
+    font-family: cursive;
+}
+
+.contact .contact-info .col-4 ul li {
+    margin-top: 20px;
+    color: darkgoldenrod;
+    font-family: cursive;
+    list-style-type: none;
+}
+
+.contact .contact-info .col-4 ul li i {
+    margin-right: 4px;
+}
+
+.contact .contact-info .form .mb-3 {
+    font-family: cursive;
+    color: darkgoldenrod;
+
+}
+
+footer {
+    width: 100%;
+    background-color: rgba(3, 36, 62, 0.995);
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+footer .footer {
+    padding: 30px 9%;
+    color: darkgoldenrod;
+}
+
+footer .footer .footer-info {
+    border-right: 1px solid darkgoldenrod;
+}
+
+footer .footer .footer-info h5 {
+    font-weight: 900;
+    font-family: cursive;
+
+}
+
+footer .footer .footer-info ul li {
+    list-style-type: none;
+    margin-left: px;
+    font-family: cursive;
+    color: white;
+    margin-left: -25px;
+
+}
+
+footer .footer .footer-info ul a {
+    margin: 8px;
+}
+
+/* novacodes */
+
+.novacodes {
+    padding-left: 30px;
+    font-size: xx-small;
+}
