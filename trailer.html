@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRAILER --</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: monospace;
+        }
+
+        img {
+            width: 30px;
+            height: 30px;
+        }
+
+        .boxStyle {
+            justify-self: center;
+            align-self: center;
+            width: 100px;
+            height: 100px;
+            background-color: tan;
+            margin: 20px;
+
+            align-items: center;
+            padding-left: 18px;
+            padding-top: 20px;
+        }
+
+        #box1 {
+            margin-top: 0px;
+            position: relative;
+            left: 110px;
+        }
+
+        #box2 {
+            position: relative;
+            right: 110px;
+        }
+
+        #box3 {
+            position: relative;
+            left: 110px;
+        }
+
+        #box4 {
+            position: relative;
+            right: 110px;
+        }
+
+        .home {
+            position: absolute;
+            right: 55rem;
+            top: 5rem;
+
+        }
+
+        .fa-person {
+            position: relative;
+            font-size: 50px;
+        }
+
+        .phone {
+            justify-self: center;
+            background-color: chocolate;
+            width: 400px;
+            height: 550px;
+            padding: 20px;
+            margin: 20px;
+        }
+
+        .button {
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        #goUp {
+            display: block;
+            justify-self: center;
+            background-color: dimgray;
+            color: white;
+            padding: 5px;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+
+        #goUp:active {
+            background-color: grey;
+            border: 1.5px solid white;
+        }
+
+        #goDown {
+            display: block;
+            justify-self: center;
+            background-color: dimgray;
+            color: white;
+            padding: 5px;
+            border: 1px solid white;
+            cursor: pointer;
+        }
+
+        #goDown:active {
+            background-color: grey;
+            border: 1.5px solid white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="phone">
+
+        <div class="home" id="home"><i class="fa-solid fa-person" id="person"></i></div>
+
+        <div id="box1" class="boxStyle"></div>
+        <div id="box2" class="boxStyle"></div>
+        <div id="box3" class="boxStyle"></div>
+        <div id="box4" class="boxStyle"></div>
+
+        <div class="button">
+            <span id="goUp" onclick="goUp()">GO UP</span>
+            <span id="goDown" onclick="goDown()">GO DOWN</span>
+        </div>
+    </div>
+    <script src="./trailer.js"></script>
+</body>
+
+</html>
